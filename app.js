@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // mongoose.connect("mongodb://localhost:27017/blogDB");
-mongoose.connect("mongodb+srv://ujjwal:Test123@cluster0.k4le7pi.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://ujjwal:<password>@cluster0.k4le7pi.mongodb.net/blogDB");
 //LODASH
 const _ = require('lodash');
 
